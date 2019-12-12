@@ -1,8 +1,8 @@
 
-opt_home := -std=c99 -Wno-missing-braces -Wno-missing-field-initializers -I/usr/local/include -L/usr/local/lib -lgsl -lfftw3 -lgslcblas -lm -O0 -g -O3 -std=gnu99 -ffast-math -funroll-loops 
+opt_home := -std=c99 -Wno-missing-braces -Wno-missing-field-initializers -I/usr/local/include -L/usr/local/lib -lgsl -lgslcblas -lm -g -O3 -std=gnu99 -ffast-math -funroll-loops 
 opt_ocelote := -std=c99 -Wno-missing-braces -Wno-missing-field-initializers \
 -I/cm/shared/uaapps/gsl/2.1/include -L/cm/shared/uaapps/gsl/2.1/lib \
--lfftw3 -lgsl -lgslcblas -lm -O0 -g -O3 \
+-lgsl -lgslcblas -lm -g -O3 \
 -ffast-math -funroll-loops -std=gnu99 
 
 home:
